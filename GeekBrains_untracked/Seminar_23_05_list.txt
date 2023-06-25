@@ -1,0 +1,43 @@
+компилятор - создает бинарник который можно запустить.
+интерпретатор - выполняет код в своем окружении
+(тот же питон без установленного питона не работает)
+
+
+
+numbers = [77,46,11,89,48,14,67,73,22,26]
+sorted_size = 0
+size = numbers.length = 10
+while (sorted_size < size - 1) do
+	index = 0
+	while index < (size - 1 - sorted_size) do
+		if numbers[index] > numbers[index + 1] then
+			temp = numbers[index]
+			numbers[index] = numbers[index + 1]
+			numbers[index + 1] = temp
+		index = index + 1
+	sorted_size = sorted_size + 1
+print(numbers)
+		
+
+print ("Сколько раз собака пробежит между двумя людьми, идущими друг к другу?")
+print("Введите дистанцию между людьми")
+distance = int(input())
+print ("Введите скорость первого человека")
+man_1_speed = int(input())
+print ("Введите скорость второго человека")
+man_2_speed = int(input())
+print ("Введите скорость собаки")
+dog_speed = int(input())
+print("От какого человека начинает бежать собака")
+man = int(input())
+count = int(0)
+while (distance > 10):
+        if man == 1:
+                time = distance / (man_2_speed + dog_speed)
+                man = 2
+        else:
+                time = distance / (man_1_speed + dog_speed)
+                man = 1
+        count = count + 1
+        distance = time * (man_1_speed + man_2_speed)
+print ("Собака пробежит",count," раз")

@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "GeekBrains_Seminar_3/1.0.0": {
+        "runtime": {
+          "GeekBrains_Seminar_3.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "GeekBrains_Seminar_3/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

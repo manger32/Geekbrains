@@ -1,0 +1,11 @@
+PS C:\Users\Herman\Desktop\Geekbrains_master\GEEKBRAINS_SEMINAR_5> git add . 
+PS C:\Users\Herman\Desktop\Geekbrains_master\GEEKBRAINS_SEMINAR_5> git commit -m "Finalize changes"
+PS C:\Users\Herman\Desktop\Geekbrains_master\GEEKBRAINS_SEMINAR_5> git add origin master https://github.com/manger32/All_GeekBrains_Tasks
+PS C:\Users\Herman\Desktop\Geekbrains_master\GEEKBRAINS_SEMINAR_5> git add origin master https://github.com/manger32/All_GeekBrains_Tasks
+PS C:\Users\Herman\Desktop\Geekbrains_master\GEEKBRAINS_SEMINAR_5> git remote
+PS C:\Users\Herman\Desktop\Geekbrains_master\GEEKBRAINS_SEMINAR_5> git remote add origin https://github.com/manger32/All_PS C:\Users\Herman\Desktop\Geekbrains_master\GEEKBRAINS_SEMINAR_5> git remote
+PS C:\Users\Herman\Desktop\Geekbrains_master\GEEKBRAINS_SEMINAR_5> git push
+PS C:\Users\Herman\Desktop\Geekbrains_master\GEEKBRAINS_SEMINAR_5> git push -u origin master
+PS C:\Users\Herman\Desktop\Geekbrains_master\GEEKBRAINS_SEMINAR_5> git remote
+origin
+PS C:\Users\Herman\Desktop\Geekbrains_master\GEEKBRAINS_SEMINAR_5> git remote set-url origin https://github.com/manger32/PS C:\Users\Herman\Desktop\Geekbrains_master\GEEKBRAINS_SEMINAR_5> git push -u origin master
