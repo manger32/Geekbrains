@@ -86,7 +86,7 @@ void GetSumMatrix49(int[,] mat)
 int GetSumMatrix51(int[,] mat)
 {
     int sum = 0;
-    for (int i = 0; i < min(mat.GetLength(0),mat.GetLength(1)); ++i)  
+    for (int i = 0; i < min(mat.GetLength(0),mat.GetLength(1)); ++i)  //for (int i = 0; i < matrix.GetLength(0) && matrix.GetLength(1); i++)
         sum += mat[i,i];
     return sum;
 }
@@ -98,3 +98,5 @@ GetSumMatrix49(myMatrix);
 PrintMatrix(myMatrix);
 PrintMatrix(GetSumMatrix(rows,columns));
 Console.WriteLine($"GetSumMatrix51 = {GetSumMatrix51(myMatrix)}");
+
+decimal a = Convert.ToSingle();
