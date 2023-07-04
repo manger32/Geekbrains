@@ -90,7 +90,7 @@ void PrintMatrixInts(Int64[,] matrix)
 
 string ExistsInMatrix(Int64 [,] Matrix, int g, int q)
 {
-    if (g-1 >= Matrix.GetLength(0) || q-1 >= Matrix.GetLength(1))
+    if (g-1 >= Matrix.GetLength(0) || q-1 >= Matrix.GetLength(1) || g < 0 || q < 0)
         return "Such an Element does not exist, because indices do not exist";
     return Matrix[g-1,q-1].ToString();
             
