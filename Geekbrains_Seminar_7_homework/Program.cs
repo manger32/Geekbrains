@@ -121,6 +121,7 @@ Int64[] StandardMeanColumnVector(Int64[,] matrix)
         {
             StandardMean[j] += matrix[i,j];
         }
+        
     for (int j = 0; j < matrix.GetLength(1); ++j)
         StandardMean[j] /= matrix.GetLength(0);
     return StandardMean;
