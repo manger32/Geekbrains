@@ -11,3 +11,42 @@ M = 4; N = 8. -> 30
 m = 3, n = 2 -> A(m,n) = 9
 m = 2, n = 3 -> A(m,n) = 29
 **/
+void PrintOutFromNTo1(int N)
+{
+    if (N == 0)
+    { Console.WriteLine(); return; }
+    Console.Write($"{N} ");
+    PrintOutFromNTo1(N - 1); // for Reverse: Exchange 2 and 3 strings of this method
+}
+
+PrintOutFromNTo1(9);
+
+const int M = 10, N = 19;
+
+int SumFromMToN(int M, int N)
+{
+    if (M == N) return N;
+    int Sum = M;
+    return Sum + SumFromMToN(M + 1, N);
+}
+
+Console.WriteLine(SumFromMToN(M, N));
+
+int AckermanFunction(int m, int n)
+{
+    if (n == 0)
+    {
+        return m + 1;
+    }
+    else if ((n > 0) && (m == 0))
+    {
+        return AckermanFunction(1, n - 1);
+    }
+    else if ((n > 0) && (m > 0))
+    {
+        return AckermanFunction(AckermanFunction(m - 1, n), n - 1);
+    }
+    return m + 1;
+}
+
+Console.WriteLine(AckermanFunction(1, 3));

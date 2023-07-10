@@ -1,0 +1,7 @@
+C:\Users\Herman\Desktop\SpiralMatrix\bin\Debug\SpiralMatrix.exe.config
+C:\Users\Herman\Desktop\SpiralMatrix\bin\Debug\SpiralMatrix.exe
+C:\Users\Herman\Desktop\SpiralMatrix\bin\Debug\SpiralMatrix.pdb
+C:\Users\Herman\Desktop\SpiralMatrix\obj\Debug\SpiralMatrix.csprojAssemblyReference.cache
+C:\Users\Herman\Desktop\SpiralMatrix\obj\Debug\SpiralMatrix.csproj.CoreCompileInputs.cache
+C:\Users\Herman\Desktop\SpiralMatrix\obj\Debug\SpiralMatrix.exe
+C:\Users\Herman\Desktop\SpiralMatrix\obj\Debug\SpiralMatrix.pdb
