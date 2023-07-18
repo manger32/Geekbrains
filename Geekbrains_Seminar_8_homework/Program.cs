@@ -200,8 +200,8 @@ void Print_Oregon_Matrix(int[,,] oregonMatrix)
         Console.WriteLine();
     }
 }
-
-/*int[,,] Margin_P = oregon_Matrix(dim1,dim2,dim3);
+// O(N^3)
+int[,,] Margin_P = oregon_Matrix(dim1,dim2,dim3);
 Print_Oregon_Matrix(Margin_P);
 /*OUTPUT:
 79 (0, 0, 0) 18 (0, 0, 1) 56 (0, 1, 0) 74 (0, 1, 1)
