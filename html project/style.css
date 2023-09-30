@@ -1,0 +1,32 @@
+p,ul,li{
+	font-size: 16 px;
+	line-height:2;
+	letter-spacing: 1px;
+	color:darkred;
+	width:500px;
+	/* border: 1px solid black; */
+}
+h1{
+	color:cyan;
+	font-size:50px;
+	text-align: center;
+	margin: 0; /* отступы вне блока */
+	padding: 20px 0; /* отступы внутри блока */
+	text-shadow: 2px 2px 2px white;
+}
+html{
+	font-size: 15px;
+	font-family: 'Roboto', sans-serif;
+	background-color: #FFEFD5;
+}
+body:{
+	width:600px;
+	margin: 0 auto;
+	background-color: #FFE4B5;
+	padding: 0 20px 20px 20px;
+	border: 2px solid white;
+}
+img:{
+	display:block;
+	margin: 0 auto;
+}
