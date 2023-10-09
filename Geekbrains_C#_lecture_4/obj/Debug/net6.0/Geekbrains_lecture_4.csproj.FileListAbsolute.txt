@@ -1,0 +1,15 @@
+C:\Users\Herman\Desktop\Geekbrains_master\Geekbrains_lecture_4\bin\Debug\net6.0\Geekbrains_lecture_4.exe
+C:\Users\Herman\Desktop\Geekbrains_master\Geekbrains_lecture_4\bin\Debug\net6.0\Geekbrains_lecture_4.deps.json
+C:\Users\Herman\Desktop\Geekbrains_master\Geekbrains_lecture_4\bin\Debug\net6.0\Geekbrains_lecture_4.runtimeconfig.json
+C:\Users\Herman\Desktop\Geekbrains_master\Geekbrains_lecture_4\bin\Debug\net6.0\Geekbrains_lecture_4.dll
+C:\Users\Herman\Desktop\Geekbrains_master\Geekbrains_lecture_4\bin\Debug\net6.0\Geekbrains_lecture_4.pdb
+C:\Users\Herman\Desktop\Geekbrains_master\Geekbrains_lecture_4\obj\Debug\net6.0\Geekbrains_lecture_4.csproj.AssemblyReference.cache
+C:\Users\Herman\Desktop\Geekbrains_master\Geekbrains_lecture_4\obj\Debug\net6.0\Geekbrains_lecture_4.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Herman\Desktop\Geekbrains_master\Geekbrains_lecture_4\obj\Debug\net6.0\Geekbrains_lecture_4.AssemblyInfoInputs.cache
+C:\Users\Herman\Desktop\Geekbrains_master\Geekbrains_lecture_4\obj\Debug\net6.0\Geekbrains_lecture_4.AssemblyInfo.cs
+C:\Users\Herman\Desktop\Geekbrains_master\Geekbrains_lecture_4\obj\Debug\net6.0\Geekbrains_lecture_4.csproj.CoreCompileInputs.cache
+C:\Users\Herman\Desktop\Geekbrains_master\Geekbrains_lecture_4\obj\Debug\net6.0\Geekbrains_lecture_4.dll
+C:\Users\Herman\Desktop\Geekbrains_master\Geekbrains_lecture_4\obj\Debug\net6.0\refint\Geekbrains_lecture_4.dll
+C:\Users\Herman\Desktop\Geekbrains_master\Geekbrains_lecture_4\obj\Debug\net6.0\Geekbrains_lecture_4.pdb
+C:\Users\Herman\Desktop\Geekbrains_master\Geekbrains_lecture_4\obj\Debug\net6.0\Geekbrains_lecture_4.genruntimeconfig.cache
+C:\Users\Herman\Desktop\Geekbrains_master\Geekbrains_lecture_4\obj\Debug\net6.0\ref\Geekbrains_lecture_4.dll

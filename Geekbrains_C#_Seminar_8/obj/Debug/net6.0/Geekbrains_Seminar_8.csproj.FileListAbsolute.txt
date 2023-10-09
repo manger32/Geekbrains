@@ -1,0 +1,15 @@
+C:\Users\Herman\Desktop\Geekbrains_master\Geekbrains_Seminar_8\obj\Debug\net6.0\Geekbrains_Seminar_8.csproj.AssemblyReference.cache
+C:\Users\Herman\Desktop\Geekbrains_master\Geekbrains_Seminar_8\obj\Debug\net6.0\Geekbrains_Seminar_8.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Herman\Desktop\Geekbrains_master\Geekbrains_Seminar_8\obj\Debug\net6.0\Geekbrains_Seminar_8.AssemblyInfoInputs.cache
+C:\Users\Herman\Desktop\Geekbrains_master\Geekbrains_Seminar_8\obj\Debug\net6.0\Geekbrains_Seminar_8.AssemblyInfo.cs
+C:\Users\Herman\Desktop\Geekbrains_master\Geekbrains_Seminar_8\obj\Debug\net6.0\Geekbrains_Seminar_8.csproj.CoreCompileInputs.cache
+C:\Users\Herman\Desktop\Geekbrains_master\Geekbrains_Seminar_8\bin\Debug\net6.0\Geekbrains_Seminar_8.exe
+C:\Users\Herman\Desktop\Geekbrains_master\Geekbrains_Seminar_8\bin\Debug\net6.0\Geekbrains_Seminar_8.deps.json
+C:\Users\Herman\Desktop\Geekbrains_master\Geekbrains_Seminar_8\bin\Debug\net6.0\Geekbrains_Seminar_8.runtimeconfig.json
+C:\Users\Herman\Desktop\Geekbrains_master\Geekbrains_Seminar_8\bin\Debug\net6.0\Geekbrains_Seminar_8.dll
+C:\Users\Herman\Desktop\Geekbrains_master\Geekbrains_Seminar_8\bin\Debug\net6.0\Geekbrains_Seminar_8.pdb
+C:\Users\Herman\Desktop\Geekbrains_master\Geekbrains_Seminar_8\obj\Debug\net6.0\Geekbrains_Seminar_8.dll
+C:\Users\Herman\Desktop\Geekbrains_master\Geekbrains_Seminar_8\obj\Debug\net6.0\refint\Geekbrains_Seminar_8.dll
+C:\Users\Herman\Desktop\Geekbrains_master\Geekbrains_Seminar_8\obj\Debug\net6.0\Geekbrains_Seminar_8.pdb
+C:\Users\Herman\Desktop\Geekbrains_master\Geekbrains_Seminar_8\obj\Debug\net6.0\Geekbrains_Seminar_8.genruntimeconfig.cache
+C:\Users\Herman\Desktop\Geekbrains_master\Geekbrains_Seminar_8\obj\Debug\net6.0\ref\Geekbrains_Seminar_8.dll
