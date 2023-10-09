@@ -45,9 +45,11 @@ public class hello_world_primitives {
         System.out.println(an & bn); // 000 = 0
         System.out.println(an ^ bn); // 111 = 7
         String q = "qww1";
-        boolean b = q.length() >= 5 || q.charAt(4) == '1';
+        boolean b = q.length() >= 2 || q.charAt(4) == '1';
+        //boolean b = q.length() >= 2 | q.charAt(4) == '1';
+        //error: q.charAt(4) String index out of range
         System.out.println(b);
-        // & - both operands are evaluated; && - only if first is false, second operand is evaluated
+        // &(|) - both operands are evaluated; &&(||) - only if first is false, second operand is evaluated
     }
     static String getType(Object o){
             return o.getClass().getSimpleName();
