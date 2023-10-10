@@ -37,5 +37,16 @@ public class arrays {
         // Invariance of types - covariance and contravariance in type conversion of arrays
         int[] a = new int[10];
         //double[] d = a; 
+        // fori, foreach
+        int [] array = new int[] {1,2,3,4,5,6,7,8,9,100};
+        for (int index = 0; index < array.length; index++) {
+            int to_sqr = array[index];
+            int sqr = to_sqr*to_sqr;
+            array[index] = sqr;
+        }
+        for (int item : array)
+        {
+            System.out.println(item);
+        }
     }
 }

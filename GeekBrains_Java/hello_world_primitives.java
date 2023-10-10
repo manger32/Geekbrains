@@ -62,8 +62,55 @@ public class hello_world_primitives {
         System.out.println(im); // 3
         byte bm = Byte.parseByte("123");
         System.out.println(bm); // 123
-        bm = Byte.parseByte("1234");
-        System.out.println(bm); // NumberFormatException: Value out of range
+        //bm = Byte.parseByte("1234"); // NumberFormatException: Value out of range
+        System.out.println(bm); 
+        byte bb = Byte.parseByte("121"); // 0..256
+        System.out.println(bb);
+        // String concatenation with type conversion is costly:
+        String G = "qwe";
+        int af = 123;
+        String concat = G + af;
+        System.out.println(concat);
+        // Format output:
+        int x = 1, y = 3;
+        int k = x + y;
+        String result = String.format("%d + %d = %d \n", x, y, k);
+        System.out.printf("%d + %d = %d \n", x, y, k);
+        System.out.println(result);
+        // %d - integer;
+        // %x - hexadecimal;
+        // %f - float;
+        // %e - exponential;
+        // %c - single digit;
+        // %s - string values;
+        float pi = 3.141592f;
+        System.out.printf("%f\n", pi);
+        System.out.printf("%.2f\n", pi);
+        System.out.printf("%.3f\n", pi);
+        System.out.printf("%e\n", pi);
+        System.out.printf("%.2e\n", pi);
+        System.out.printf("%.3e\n", pi);
+        {
+            int g = 123;
+            System.out.println(g);
+        }
+        int g = 321;
+        System.out.println(g);
+        int temp = 123;
+        switch (temp)
+        {
+            case 1:
+            case 2:
+            case 123:
+            case 3:
+                System.out.println("temp " + temp);
+                break;
+            case 10:
+                System.out.println("b");
+                break;
+            default:
+                break;
+        }
     }
     static String getType(Object o){
             return o.getClass().getSimpleName();
