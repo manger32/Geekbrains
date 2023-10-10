@@ -44,12 +44,26 @@ public class hello_world_primitives {
         System.out.println(an | bn); // 111 = 7
         System.out.println(an & bn); // 000 = 0
         System.out.println(an ^ bn); // 111 = 7
-        String q = "qww1";
+        String q = "qww1"; // 4
         boolean b = q.length() >= 2 || q.charAt(4) == '1';
         //boolean b = q.length() >= 2 | q.charAt(4) == '1';
         //error: q.charAt(4) String index out of range
         System.out.println(b);
         // &(|) - both operands are evaluated; &&(||) - only if first is false, second operand is evaluated
+        // Type conversion:
+        int im = 123; double dm = im;
+        System.out.println(im); // 123
+        System.out.println(dm); // 123.0
+        dm = 3.1415; im = (int)dm;
+        System.out.println(dm); // 3.1415
+        System.out.println(im); // 3
+        dm = 3.9415; im = (int)dm;
+        System.out.println(dm); // 3.9415
+        System.out.println(im); // 3
+        byte bm = Byte.parseByte("123");
+        System.out.println(bm); // 123
+        bm = Byte.parseByte("1234");
+        System.out.println(bm); // NumberFormatException: Value out of range
     }
     static String getType(Object o){
             return o.getClass().getSimpleName();
