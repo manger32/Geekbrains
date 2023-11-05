@@ -12,7 +12,7 @@ public class arrays {
         myInput.close();
         i = 0;
         while (i < arr.length)
-            System.out.println(arr[i++] + " ");
+            System.out.println(arr[i++]);
         // Multi-dimensional arrays
         int[] mehrdimensional[] = new int[Integer.parseInt(args[1])][Integer.parseInt(args[2])];
         for (int[] line : mehrdimensional)
