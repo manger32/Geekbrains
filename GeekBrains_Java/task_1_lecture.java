@@ -20,6 +20,13 @@ public class task_1_lecture {
         String str2 = br2.readLine();
         int[] array_coefficients_1 = ConvertToArray(str1);
         int[] array_coefficients_2 = ConvertToArray(str2);
+        /**for (int i = 0; i < array_coefficients_1.length; i++) {
+            System.out.println(array_coefficients_1[i]);
+        }
+        System.out.println("__");
+        for (int i = 0; i < array_coefficients_2.length; i++) {
+            System.out.println(array_coefficients_2[i]);
+        }**/
         int[] resulting_array_coefficients = new int[Integer.max(array_coefficients_1.length,array_coefficients_2.length)];
         int j = 0;
         for (j = 0; j < resulting_array_coefficients.length; ++j)
@@ -44,19 +51,19 @@ public class task_1_lecture {
     static int[] ConvertToArray(String s)
     {
         String[] members = s.split("\\+");
-        int len = members.length;
-        int[] coefficients = new int[Integer.parseInt(members[0].substring(members[0].indexOf('x') + 2, members[0].length()))];
-        for (int i = 0; i < len; ++i)
+        int[] coefficients = new int[Integer.parseInt(members[0].substring(members[0].indexOf('x') + 2, members[0].length()))+1];
+        for (int i = 0; i < coefficients.length; ++i)
             coefficients[i] = 0;
-        for (int i = 0; i < len; ++i)
+        for (int i = 0; i < members.length; ++i)
         {
             String[] qres = members[i].split("\\*");
+            //System.out.println(members[i]);
             if (qres[0].charAt(0) == 'x')
                 coefficients[(int) qres[0].charAt(2) - '0'] = 1;
             else if (qres.length == 1)
                 coefficients[0] = Integer.parseInt(qres[0]);
             else
-                coefficients[(int) qres[1].charAt(2) - '0' - 1] = Integer.parseInt(qres[0]);
+                coefficients[(int) qres[1].charAt(2) - '0'] = Integer.parseInt(qres[0]);
         }
         return coefficients;
     }

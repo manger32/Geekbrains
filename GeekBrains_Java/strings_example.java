@@ -1,5 +1,5 @@
 import java.lang.StringBuilder;
-public class strings {
+public class strings_example {
     public static void main(String[] args) {
         StringBuilder S = new StringBuilder("-++---++++-----++++++-------++++++++");  // - строка из плюсиков и минусиков, 1 "-", затем 2 "+", потом 3 "---" и так далее"
         var SLength = S.length();

@@ -2,7 +2,7 @@ import java.io.FileWriter;
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
-public class text_files {
+public class text_files_lecture {
     public static void main(String[] args) throws Exception { // throws exception if we do not add try-catch block
         try (FileWriter fw = new FileWriter("file.txt", false))
         {
