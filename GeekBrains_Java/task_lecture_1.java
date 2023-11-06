@@ -2,7 +2,7 @@ import java.io.BufferedReader;
 import java.io.FileReader;
 import java.util.Random;
 import java.util.regex.Pattern;
-public class task_1_lecture {
+public class task_lecture_1 {
     /*
         1. Задана натуральная степень k. Сформировать случайным
         образом список коэффициентов (значения от 0 до 100)

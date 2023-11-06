@@ -2,7 +2,7 @@
  * program hello_world 
  * to test java interpreter and compiler on VS Code
  */
-public class hello_world_primitives_lecture {
+public class hello_world_primitives_lecture_1 {
     public static void main(String[] args) {
         String s = "Hello world, it is Jermaine ";
         String h = null;

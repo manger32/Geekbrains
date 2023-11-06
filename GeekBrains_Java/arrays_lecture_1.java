@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class arrays {
+public class arrays_lecture_1 {
     public static void main(String[] args) {
         int[] arr = new int[Integer.parseInt(args[0])];
         int brr[]; // так тоже можно завести массив
