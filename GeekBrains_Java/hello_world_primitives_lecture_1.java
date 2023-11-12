@@ -8,17 +8,17 @@ public class hello_world_primitives_lecture_1 {
         String h = null;
         System.out.println(s + args[0]); // Hello world, it is Jermaine <args[0]>
         System.out.println(h); // null
-        int num = 19;
+        int num = 19; // 4 bytes
         float f = 123.45f;
-        double d = 123.456D;
-        char fig = '{';
+        double d = 123.456D; // 8 bytes
+        char fig = '{'; // 2 bytes
         char fig1 = 124;
         char fig2 = 125;
         String numbersCombined = fig + String.valueOf(num) + fig1 + String.valueOf(f) + fig1 + String.valueOf(d) + fig2;
         System.out.println(numbersCombined); // {19|123.45|123.456}
         boolean B = true && false || true ^ false;
         System.out.println(B); // true
-        var i = 65_536;
+        var i = 65_536_712;
         System.out.println(Integer.MAX_VALUE); // 2147483647
         System.out.println(Integer.MIN_VALUE); // -2147483648
         System.out.println(Math.sqrt(i)); // 256.0
